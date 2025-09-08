@@ -1,9 +1,12 @@
 import pytest
 from events.complete_order_event import CompleteOrderFlow
+import allure
 
 
+@allure.feature("Order Flow")
 @pytest.mark.usefixtures("logged_in_state_fixture")
 class TestOrderEvent:
+    @allure.title("Order complete")
     def test_order_event(self, appium_driver):
         complete_order = CompleteOrderFlow(appium_driver)
         complete_order.complete_order_flow()

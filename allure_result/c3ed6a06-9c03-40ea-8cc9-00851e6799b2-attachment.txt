@@ -1,0 +1,25 @@
+INFO     bases.base_page:base_page.py:59 click element: ('accessibility id', 'open menu')
+INFO     bases.base_page:base_page.py:59 click element: ('accessibility id', 'menu item log in')
+INFO     bases.base_page:common_components.py:81 用户已登录，返回产品页。
+INFO     bases.base_page:base_page.py:117 back to previous page
+INFO     bases.base_page:base_page.py:45 find 1 elements: ('accessibility id', 'products screen')
+INFO     bases.base_page:products_page.py:62 find target product: 'Sauce Labs Backpack'
+INFO     bases.base_page:products_page.py:71 ready to click product name
+INFO     bases.base_page:base_page.py:59 click element: ('accessibility id', 'counter plus button')
+INFO     bases.base_page:base_page.py:59 click element: ('accessibility id', 'Add To Cart button')
+INFO     bases.base_page:base_page.py:59 click element: ('accessibility id', 'cart badge')
+INFO     bases.base_page:base_page.py:59 click element: ('accessibility id', 'Proceed To Checkout button')
+INFO     bases.base_page:base_page.py:74 element: ('accessibility id', 'Full Name* input field') input: LAN
+INFO     bases.base_page:base_page.py:74 element: ('accessibility id', 'Address Line 1* input field') input: address one
+INFO     bases.base_page:base_page.py:74 element: ('accessibility id', 'Address Line 2 input field') input: address two
+INFO     bases.base_page:base_page.py:74 element: ('accessibility id', 'City* input field') input: city
+INFO     bases.base_page:base_page.py:74 element: ('accessibility id', 'State/Region input field') input: state
+INFO     bases.base_page:base_page.py:74 element: ('accessibility id', 'Zip Code* input field') input: 12345
+INFO     bases.base_page:base_page.py:74 element: ('accessibility id', 'Country* input field') input: country
+INFO     bases.base_page:base_page.py:59 click element: ('accessibility id', 'To Payment button')
+INFO     bases.base_page:base_page.py:74 element: ('accessibility id', 'Full Name* input field') input: LAN
+INFO     bases.base_page:base_page.py:74 element: ('accessibility id', 'Card Number* input field') input: 123412341234123
+INFO     bases.base_page:base_page.py:74 element: ('accessibility id', 'Expiration Date* input field') input: 1126
+INFO     bases.base_page:base_page.py:74 element: ('accessibility id', 'Security Code* input field') input: 123
+INFO     bases.base_page:base_page.py:59 click element: ('accessibility id', 'Review Order button')
+INFO     bases.base_page:base_page.py:59 click element: ('accessibility id', 'Place Order button')

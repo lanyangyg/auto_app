@@ -1,0 +1,3 @@
+INFO     bases.base_page:base_page.py:74 element: ('accessibility id', 'Username input field') input: alice@example.com
+INFO     bases.base_page:base_page.py:74 element: ('accessibility id', 'Password input field') input: 10203040
+INFO     bases.base_page:base_page.py:59 click element: ('accessibility id', 'Login button')

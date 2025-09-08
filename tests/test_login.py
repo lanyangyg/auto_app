@@ -1,10 +1,13 @@
 import pytest
 from pages.login_page import LoginPage
+import allure
 
-
+@allure.feature("Login Flow")
 @pytest.mark.usefixtures("navigate_to_login_page_fixture")      # Pytest 会自动从 ui_setup_fixtures.py 文件中找到这个 fixture 并应用
 class TestLogin:
 
+    @allure.story("Login fail")
+    @allure.title("Login fail - username: {username}")
     @pytest.mark.parametrize("username, password, expected", [
         ("bob@example.com", "1111", {"error": "Provided credentials do not match any user in this service."}),
         ("alice@example.com", "10203040", {"error": "Sorry, this user has been locked out."})
@@ -14,6 +17,8 @@ class TestLogin:
         login_page.login(username, password)
         assert login_page.verify_login_fail() == expected["error"]
 
+    @allure.story("Login success")
+    @allure.title("Login success - username: {username}")
     @pytest.mark.parametrize("username, password, expected", [
         ("bob@example.com", "10203040", {"success": "Products"})
     ])

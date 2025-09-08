@@ -1,0 +1,7 @@
+INFO     bases.base_page:base_page.py:59 click element: ('accessibility id', 'open menu')
+INFO     bases.base_page:base_page.py:59 click element: ('accessibility id', 'menu item catalog')
+INFO     bases.base_page:base_page.py:59 click element: ('accessibility id', 'open menu')
+INFO     bases.base_page:base_page.py:59 click element: ('accessibility id', 'menu item log in')
+INFO     bases.base_page:base_page.py:74 element: ('accessibility id', 'Username input field') input: bob@example.com
+INFO     bases.base_page:base_page.py:74 element: ('accessibility id', 'Password input field') input: 1111
+INFO     bases.base_page:base_page.py:59 click element: ('accessibility id', 'Login button')
